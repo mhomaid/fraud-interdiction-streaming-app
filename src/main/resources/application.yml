@@ -1,0 +1,26 @@
+endpoints:
+    metrics:
+        sensitive: false
+management:
+    endpoint:
+        info:
+            enabled: true
+        shutdown:
+            enabled: true
+    endpoints:
+        enabled-by-default: true
+        jmx:
+            exposure:
+                include: '*'
+        web:
+            exposure:
+                include: '*'
+    security:
+        enabled: false
+server:
+    port: 8091
+spring:
+    security:
+        user:
+            name: admin
+            password: Kafkarock$4
