@@ -22,7 +22,7 @@
 		<confluent.version>5.3.1</confluent.version>
 		<kafka.version>5.3.1-ccs</kafka.version>
 		<jackson.version>2.9.9</jackson.version>
-		<jetty.version>9.4.26.v20200117</jetty.version>
+		<jetty.version>11.0.1</jetty.version>
 		<jersey.version>2.29.1</jersey.version>
 		<drools-version>7.37.0.Final</drools-version>
 	</properties>
